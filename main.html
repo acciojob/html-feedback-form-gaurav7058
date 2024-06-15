@@ -9,15 +9,26 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="" method="post">
-        <label for="name">Name</label>
-        <input type="Text" id="name" minlength="3" maxlength="50" required><br><br>
-        <label for="portfolio">Portfolio</label>
-        <input type="URL"  id="portfoli"  required><br><br>
-        <label for="favColor">Favorite Color</label>
-        <input type="Color"  id="favColor"><br><br>
-        <label for="likeness">Likeness</label>
-        <input type="Range"  id="likeness"  min="1" max="100"><br><br>
-        <button type="submit">submit</button>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+        <br>
+
+        <!-- Portfolio Field -->
+        <label for="portfolio">Portfolio:</label>
+        <input type="url" id="portfolio" name="portfolio" required>
+        <br>
+
+        <!-- Favorite Color Field -->
+        <label for="favColor">Favorite Color:</label>
+        <input type="color" id="favColor" name="favColor" required>
+        <br>
+
+        <!-- Likeness Field -->
+        <label for="likeness">Likeness:</label>
+        <input type="range" id="likeness" name="likeness" min="1" max="100" required>
+        <br>
+
+        <button type="submit">Submit</button>
       </form>
     <script type="text/javascript" src="./script.js">
 </script>
